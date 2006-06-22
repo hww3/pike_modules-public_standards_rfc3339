@@ -1,0 +1,14 @@
+# $Id: configure.in,v 1.1.1.1 2006-06-22 03:20:04 hww3 Exp $
+AC_INIT(dummy_config.h.in)
+
+AC_MODULE_INIT()
+AC_CONFIG_HEADERS(dummy_config.h)
+
+CMOD_LIBS=""
+CMOD_FLAGS=""
+
+AC_SUBST(CMOD_CFLAGS) 
+AC_SUBST(CMOD_LIBS)
+
+AC_OUTPUT(Makefile)
+
